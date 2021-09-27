@@ -1,18 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-* {
-    
-}
-
 body {
-    margin:0 auto; padding: 0; box-sizing: border-box;
-    background-image: linear-gradient(90deg, rgba(238,174,206,1) 0%, rgba(148,208,233,1) 100%);
-}
-a {
-    text-decoration: none;
+    background-image: url(images/star_background.gif);
+    background-repeat: repeat;
 }
 
- nav {
+nav {
     position: fixed;
      top: 0;
      width: 100%;
@@ -41,29 +34,26 @@ nav ul a:hover {
     background-color: #87a533;
 }
 
-.lines {
+p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    color: white;
+    position: absolute;
+    top: 45rem;
+    left: 50%;
+}
+
+a {
     font-family: 'Rajdhani', sans-serif;
     font-size: 2rem;
     font-weight: 400;
-    position: relative;
+    color: yellow;
+    position: absolute;
+    top: 50rem;
+    left: 80%;
 }
 
-.l1 {
-    color: rgb(228, 212, 250);
-    position: absolute;
-    left: 50%;
-    top: 45rem;
-    transition: all .3s;
-}
- p:hover {
-     color: white;
- }
-
-.l2 {
-    color: rgb(228, 212, 250);
-    font-family: 'Rajdhani', sans-serif;
-    position: absolute;
-    top: 70rem;
-    left: 3%;
-    transition: all .3s;
+a:hover {
+    color: crimson;
 }
