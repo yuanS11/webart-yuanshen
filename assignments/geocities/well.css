@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-image: url(media/images/wave4.gif);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 30rem;
+}
+
+nav {
+    position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: -1;
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    opacity: .6;
+  }
+nav ul a {
+    text-decoration: none;
+    color: rgb(228, 212, 250);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: .5rem .8rem;
+    display: block;
+    float: right;
+    transition: all .3s; 
+}
+nav ul a:hover {
+    background-color: #87a533;
+}
+
+p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    color: rgb(205, 250, 255);
+    opacity: .8;
+}
+
+img {
+    width: 10rem;
+    display: block;
+    position: fixed;
+}
+
+.l1 {
+    position: fixed;
+    top: 28rem;
+    left: 47%;
+    opacity: 1;
+    font-weight: 600;
+    color: white;
+}
+
+.l2 {
+    position: absolute;
+    top: 40rem;
+    left: 70%;
+}
+
+.l3 {
+    position: absolute;
+    top: 60rem;
+    left: 20%;
+}
+
+.l4 {
+    position: absolute;
+    top: 85rem;
+    left: 55%;
+}
+
+.l5 {
+    position: absolute;
+    top: 100rem;
+    left: 30%;
+}
+
+.l6 {
+    position: absolute;
+    top: 120rem;
+    left: 50%;
+}
+
+.l7 {
+    position: absolute;
+    top: 140rem;
+    left: 15%;
+}
+
+.blinking{
+    animation:blinkingText 2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(0, 0, 0);    }
+    49%{    color: rgb(205, 250, 255); }
+    60%{    color: rgb(205, 250, 255); }
+    99%{    color:transparent;  }
+    100%{   color: rgb(0, 0, 0);    }
+}
+
+.l8 {
+    position: absolute;
+    top: 160rem;
+    left: 50%;
+}
+
+.l9 {
+    position: absolute;
+    top: 180rem;
+    left: 60%;
+}
+
+.l10 {
+    position: absolute;
+    top: 200rem;
+    left: 20%;
+}
+
+.l11 {
+    position: absolute;
+    top: 220rem;
+    left: 40%;
+    padding-bottom: 60rem;
+}

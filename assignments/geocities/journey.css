@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-image: url(media/images/confused.gif);
+    background-repeat: repeat;
+}
+
+nav {
+    position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: -1;
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    opacity: .6;
+  }
+nav ul a {
+    text-decoration: none;
+    color: rgb(223, 200, 255);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: .5rem .8rem;
+    display: block;
+    float: right;
+    transition: all .3s; 
+}
+nav ul a:hover {
+    background-color: #87a533;
+}
+
+a:nth-child(2) {
+    background-color: #a2c24d;
+    color: black;
+}
