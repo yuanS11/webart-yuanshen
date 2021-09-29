@@ -34,6 +34,9 @@ nav ul a:hover {
     background-color: #87a533;
 }
 
+img {
+    width: 60rem;
+}
 p {
     font-family: 'Rajdhani', sans-serif;
     font-size: 2rem;
